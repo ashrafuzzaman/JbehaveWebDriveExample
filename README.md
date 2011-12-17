@@ -1,4 +1,5 @@
 The purpose of this startup project is to get you going with jbehave(3.4.3) and WebDrive. In this example we do a simple and basic task.<br/>
+
 * Load a website
 * Click on a link
 * And test if the redirected page is where we want to be
