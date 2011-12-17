@@ -4,9 +4,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.jbehave.web.selenium.WebDriverProvider;
 
-public class Home extends AbstractPage {
+public class HomePage extends AbstractPage {
 
-    public Home(WebDriverProvider driverProvider) {
+    public HomePage(WebDriverProvider driverProvider) {
         super(driverProvider);
     }
 

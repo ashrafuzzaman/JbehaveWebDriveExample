@@ -16,17 +16,17 @@ public class BasicWebSteps {
 
     @Given("user is on Home page")
     public void userIsOnHomePage(){        
-        pages.home().open();        
+        pages.homePage().open();        
     }
 
-    @When("user opens Resume page")
-    public void userClicksOnRunStory(){        
-        pages.resume().open();
+    @When("user clicks on Resume from menu")
+    public void userClicksOnResumeLink(){        
+        pages.resumePage().open();
     }
-    
+
     @Then("Resume page is shown")
     public void runStoryPageIsShown(){
-        pages.resume().isShown();
+        pages.resumePage().assertShown();
     }
 
 }
